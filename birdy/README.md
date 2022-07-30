@@ -1,1 +1,1 @@
-dqn is not too great of an algorithm in itself but gets the job done. ive observed top score of around 40. 30-45 is consistent. 
+dqn is not too great of an algorithm in itself but gets the job done. ive observed top score of around 40. 30-45 is consistent. the code in waybetterbrain is a way better brain! like 2x or 3x better than the brain but the code is also a little more complex. up to you whether to use that brain instead. there are tiers of brains and i posted both the easiest brain, and then the one one step up. theres another brain one step up. 
