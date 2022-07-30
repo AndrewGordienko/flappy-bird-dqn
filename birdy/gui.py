@@ -38,8 +38,8 @@ class Bird:
         bird_object = pygame.Rect(self.bird_x, self.bird_y, self.dimension, self.dimension)
 
         pipe1, pipe2 = pipe.pipes[self.passed][0], pipe.pipes[self.passed][1]
-        bottom_pipe = pygame.Rect(pipe.pipe_xs[self.passed], 0, 50, pipe1)
-        top_pipe = pygame.Rect(pipe.pipe_xs[self.passed], HEIGHT - pipe2, 50, pipe2)
+        bottom_pipe = pygame.Rect(pipe.pipe_xs[self.passed], 0, self.pipe_width, pipe1)
+        top_pipe = pygame.Rect(pipe.pipe_xs[self.passed], HEIGHT - pipe2, self.pipe_width, pipe2)
 
         if self.collide == False:
             if bottom_pipe.contains(bird_object) == True or top_pipe.contains(bird_object) == True:
